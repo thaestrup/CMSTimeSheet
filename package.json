@@ -1,0 +1,23 @@
+{
+  "name": "cmstimesheet",
+  "version": "1.0.0",
+  "description": "Sample project that shows the timesheet of the CMS project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaestrup/CMSTimeSheet.git"
+  },
+  "author": "Thomas Hæstrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaestrup/CMSTimeSheet/issues"
+  },
+  "homepage": "https://github.com/thaestrup/CMSTimeSheet#readme",
+  "devDependencies": {
+    "gript": "0.0.53",
+    "gulp": "^3.9.1"
+  }
+}
