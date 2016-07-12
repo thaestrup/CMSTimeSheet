@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="typescript" ng-app="gript">
+<head>
+    <meta charset="UTF-8">
+    <title>GRIPT Sample Angular 1.4.x Application</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <!-- For ng-cloak to work without flickering, this style must be loaded early -->
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }
+    </style>
+</head>
+
+<body >
+
+    <div class="container" ng-view></div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <!-- inject:js -->
+    <!-- endinject -->
+    <!-- inject:partials -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>
