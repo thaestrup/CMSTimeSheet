@@ -1,5 +1,4 @@
 /*jslint node: true */
-
 'use strict';
 
 var gulp = require('gulp');
@@ -8,9 +7,8 @@ require('gript')(gulp);
 
 // Set the config to use across the gulp build
 gulp.config = {
-    repository: 'http://git.nykreditnet.net/scm/dist/xpa-no-specified-project.git',
-	app: {
-        module: 'griptCMSTimeSheetApp'
+    repository: 'http://git.nykreditnet.net/scm/dist/xpa-no-specified-project.git', app: {
+        module: 'griptKursListerApp'
     },
     partials: ['app/**/*.html'],
     server: {
@@ -39,9 +37,6 @@ gulp.config = {
             files: [
                 'mocks/*.{json,yaml,js}'
             ]
-        },
-        multimocks: {
-            src: 'multiMocks'
         }
     },
     typeScript: {

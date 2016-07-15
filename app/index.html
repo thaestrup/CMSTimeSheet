@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-framework="typescript" ng-app="gript">
+<html lang="en" data-framework="typescript" ng-app="KursLister">
 <head>
     <meta charset="UTF-8">
     <title>GRIPT Sample Angular 1.4.x Application</title>
@@ -24,18 +24,27 @@
     </style>
 </head>
 
-<body >
-
-    <div class="container" ng-view></div>
+<body>
+    <div>
+      <nk-kursliste fondskode="0950459"></nk-kursliste>
+    </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+    <script src="../bower_components/Chart.js/dist/Chart.js"></script>
+    <script src="../bower_components/angular-chart.js/dist/angular-chart.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <!-- inject:js -->
+    <script src="../target/tmp/js/modernizr.js"></script>
+    <script src="app.js"></script>
+    <script src="kursservice.js"></script>
     <!-- endinject -->
     <!-- inject:partials -->
+    <script src="../target/tmp/partials/kurshist.js"></script>
     <!-- endinject -->
     <!-- endbuild -->
 </body>

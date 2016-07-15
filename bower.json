@@ -6,7 +6,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.4"
+    "angular": "~1.4",
+    "moment": "^2.10.6",
+    "angular-chart.js": "^1.0.0-beta1"
   },
   "overrides": {
     "bootstrap-sass-official": {
