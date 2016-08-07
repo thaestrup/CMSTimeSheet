@@ -8,7 +8,8 @@
   "dependencies": {
     "angular": "~1.4",
     "moment": "^2.10.6",
-    "angular-chart.js": "^1.0.0"
+    "angular-chart.js": "^1.0.0",
+    "Chart.js": "^2.1.6"
   },
   "overrides": {
     "bootstrap-sass-official": {
