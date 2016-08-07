@@ -11,7 +11,7 @@ angular.module('KursLister')
                 mode: 'label'
             },
             colours: ['#1f69b3', '#418fde'],
-            responsive: false,
+            responsive: true
         });
 
     }])
@@ -19,8 +19,9 @@ angular.module('KursLister')
         var controller = ['$scope', '$log', 'kursMockService',
             function($scope, $log, kursservice) {
                 $scope.populate = function(kode) {
+                    var bonds = ["DK0009504599"];
                     $scope.series = kursservice.getSeries('DK0009504599');
-                    $scope.bondname = $scope.series[0];
+                    $scope.bondname = $scope.series.join();
                     $scope.labels = kursservice.getLabels('DK0009504599');
                     $scope.data = kursservice.getData('DK0009504599');
                 };
