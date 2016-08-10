@@ -11,7 +11,7 @@
     "angular-chart.js": "^1.0.0",
     "Chart.js": "2.1.x"
   },
-  "main": ["app/kurshist.html", "app/NKKursListerModule.js", "app/kursservice.js"],
+  "main": ["app/NKKursListerModule.js", "app/kursservice.js", "app/kurshist.js"],
   "overrides": {
     "bootstrap-sass-official": {
       "main": [
