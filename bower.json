@@ -1,7 +1,7 @@
 {
   "name": "gript-sample-application",
   "description": "A sample project used for testing the build tool during development of Gript",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "homepage": "https://github.com/Nykredit/gript",
   "license": "MIT",
   "private": true,
