@@ -8,7 +8,7 @@ require('gript')(gulp);
 // Set the config to use across the gulp build
 gulp.config = {
     repository: 'http://git.nykreditnet.net/scm/dist/xpa-no-specified-project.git', app: {
-        module: 'griptKursListerApp'
+        module: 'NKKursLister'
     },
     partials: ['app/**/*.html'],
     server: {

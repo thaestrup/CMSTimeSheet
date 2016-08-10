@@ -1,20 +1,7 @@
 'use strict';
 
-angular.module('KursLister', ['chart.js']);
-angular.module('KursLister')
-    // Optional configuration
-    .config(['ChartJsProvider', function(ChartJsProvider) {
-        // Configure all charts
-        ChartJsProvider.setOptions({
-            hover: {
-                // Overrides the global setting
-                mode: 'label'
-            },
-            colours: ['#1f69b3', '#418fde'],
-            responsive: true
-        });
-
-    }])
+angular.module('NKKursLister', ['chart.js']);
+angular.module('NKKursLister')
     .directive('nkKursliste', ['$log', 'kursMockService', function() {
         var controller = ['$scope', '$log', 'kursMockService',
             function($scope, $log, kursservice) {

@@ -1,5 +1,5 @@
-angular.module('KursLister')
-    .factory('"kursMockService', function ($log) {
+angular.module('NKKursLister')
+    .factory('kursMockService', function ($log) {
     var mockedbond = 'DK0009504599';
     this.getSeries = function () {
         return [mockedbond];
